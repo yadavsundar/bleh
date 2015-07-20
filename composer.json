@@ -1,0 +1,14 @@
+{
+    "name": "enchance/bleh",
+    "description": "Sample package for WP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "enchance",
+            "email": "enchance@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
