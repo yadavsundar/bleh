@@ -3,6 +3,7 @@
     "description": "Sample package for WP",
     "type": "library",
     "license": "MIT",
+    "keywords": ["laravel"],
     "authors": [
         {
             "name": "enchance",
@@ -10,5 +11,10 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Enchance\\Bleh\\": "src/"
+        }
+    }
 }
